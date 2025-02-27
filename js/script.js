@@ -16,11 +16,14 @@ buttons.forEach((button) => {
 
         let winner = operation(userChoice, computerChoice)
 
-        result.innerHTML = `Your Choice: ${userChoice}
-                            <br/>
-                            Computer Choice: ${computerChoice}
-                            <br/>
-                            Overall Result: ${winner}`
+        result.innerHTML = `<span class="mr-2 bg-blue-600 text-white rounded py-1 
+                            px-2">Your Choice: ${userChoice}</span>
+
+                            <span class="mr-2 bg-blue-600 text-white rounded py-1 
+                            px-2">Computer Choice: ${computerChoice}</span>
+
+                            <span class="mr-2 bg-blue-600 text-white rounded py-1 
+                            px-2">Overall Result: ${winner}</span>`
 
         score.innerHTML = `<b>Score:</b> You ➡ <b>${userScore}</b> - <b>${computerScore}</b> ⬅ computer`
 
