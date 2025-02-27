@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+
+    <!-- TailwindCSS -->
+    <script src="./tailwindcss/tailwindcss.js"></script>
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body class="flex justify-center items-center h-dvh bg-slate-50">
+    <div class="main w-[700px] p-5 bg-slate-500 rounded-lg shadow-lg text-center text-white">
+
+        <h1 class="font-bold text-4xl">Rock, Paper, Scissors Game</h1>
+        
+        <p class="font-bold my-4">
+            Choose your option
+        </p>
+
+        <div class="btns mb-5">
+            <button data-btn="Rock" class="btn py-2 px-4 bg-slate-950 text-white shadow-lg
+            font-bold rounded-md active:bg-slate-950">Rock</button>
+
+            <button data-btn="Paper" class="btn py-2 px-4 bg-slate-950 text-white shadow-lg
+            font-bold rounded-md mx-2 active:bg-slate-950">Paper</button>
+
+            <button data-btn="Scissors" class="btn py-2 px-4 bg-slate-950 text-white shadow-lg
+            font-bold rounded-md active:bg-slate-950">Scissors</button>
+        </div>
+
+        <p class="score mt-3">
+            <b>Score:</b> You ⏩ <b>0</b> - <b>0</b> ⏪ computer
+        </p>
+
+        <p class="result bg-blue-600 text-white border border-slate-100 font-semibold py-2 px-4 
+        shadow-2xl rounded-md z-[2]">
+            Click any button to start the game
+        </p>
+
+    </div>
+
+
+    <!-- JS Source -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

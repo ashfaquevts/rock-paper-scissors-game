@@ -1,0 +1,6 @@
+.result {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+}
