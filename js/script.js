@@ -27,7 +27,7 @@ buttons.forEach((button) => {
         if(userScore >= 5) {
             main.innerHTML = `<h1 class="font-bold text-4xl mb-3">Game Over!</h1>
                             <p class="text-2xl mb-3">
-                                <b>User Score:</b> ${userScore}
+                                <b>Your Score:</b> ${userScore}
                                 <br/>
                                 <b>Computer Score:</b> ${computerScore}
                             </p>
@@ -35,7 +35,7 @@ buttons.forEach((button) => {
         } else if(computerScore >= 5) {
             main.innerHTML = `<h1 class="font-bold text-4xl mb-3">Game Over!</h1>
                             <p class="text-2xl mb-3">
-                                <b>User Score:</b> ${userScore}
+                                <b>Your Score:</b> ${userScore}
                                 <br/>
                                 <b>Computer Score:</b> ${computerScore}
                             </p>
