@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    p span {
+        display: block;
+    }
+
+    p span:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
